@@ -18,7 +18,8 @@ Gemfile:
  
 gem 'therubyracer'
 
-gem 'less' ```
+gem 'less' 
+```
 
 Run bundler:
 
