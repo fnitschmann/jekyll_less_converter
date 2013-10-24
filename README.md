@@ -1,12 +1,14 @@
 jekyll_less_converter
 =====================
 
-This is a [less](http://lesscss.org/) converter plugin für [Jekyll](http://jekyllrb.com).
+This is a [less](http://lesscss.org/) converter plugin for [Jekyll](http://jekyllrb.com).
 
 It offers you an easy converter for .less files in your Jekyll project folder and converts them all into comporessed .css files.
 
 ---
 ## Installation
+
+#### 1. Step
 
 You need two Gems to use the converter, ```therubyracer``` and ```less```. Add them to your projects ```Gemfile``` or install them manualy by hand
 
@@ -16,9 +18,7 @@ Gemfile:
  
 gem 'therubyracer'
 
-gem 'less' 
-
-```
+gem 'less' ```
 
 Run bundler:
 
@@ -29,6 +29,10 @@ By hand:
 
 
 ```gem install therubyracer && gem install less```
+
+#### 2. Step
+
+Place ```less_converter.rb``` under ```[your_page]/_plugins``` directory.
 
 ---
 ## Usage
